@@ -5,7 +5,7 @@ window.onload = function() {
     { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_1mb.mp4' },
     { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_20mb (1).mp4' },
     { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_20mb (2).mp4' },
-    { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_20mb (2).mp4' },
+    { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/metaxas-keller-Bell.mp4' },
     { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_20mb (2).mp4' }
   ];
   // Create an instance of a db object for us to store our database in
