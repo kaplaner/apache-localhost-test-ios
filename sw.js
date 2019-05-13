@@ -9,15 +9,15 @@ var filesToCache = [
         // "/content/resources/css/mobile-chutes-ui.min.css?v=",
         // "/content/resources/js/mobile-chutes-ui.min.js?v=",
         // "/content/resources/js/components/share-menu/share-menu-styles.css?v=",
-        "https://develop.citia.com/content/resources/js/components/share-menu/share-menu-styles.css?v=8.64.0-48cdf6e-1554886819290",
+//         "https://develop.citia.com/content/resources/js/components/share-menu/share-menu-styles.css?v=8.64.0-48cdf6e-1554886819290",
     // ],
     // orgCssVersionFiles: [
         // "/content/template/singleCards.css?v=",
-        "https://develop.citia.com/content/template/singleCards.css?v=1552400873000",
+//         "https://develop.citia.com/content/template/singleCards.css?v=1552400873000",
     // ],
     // nonVersionFiles: [
         // "/common/jquery/jquery-2.1.3.min.js",
-        "https://develop.citia.com/common/font-awesome/4.4.0/css/font-awesome.min.css"
+//         "https://develop.citia.com/common/font-awesome/4.4.0/css/font-awesome.min.css"
     ]
 // };
 
