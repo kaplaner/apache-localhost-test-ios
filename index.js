@@ -2,14 +2,8 @@ window.onload = function() {
   // Create constants
   const section = document.querySelector('section');
   const videos = [
-    // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/crystal.mp4' },
-    // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/elf.mp4' },
-    // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/frog.mp4' },
-    // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/monster.mp4' },
-    // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/pig.mp4' },
-    // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/rabbit.mp4' },
-    { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/SampleVideo_1280x720_1mb.mp4' }
-    { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/SampleVideo_1280x720_20mb (1).mp4' }
+    { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_1mb.mp4' }
+    { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_20mb (1).mp4' }
 
   ];
   // Create an instance of a db object for us to store our database in
