@@ -1,9 +1,9 @@
 var filesToCache = [
     // mainFiles: [
        '/',
-       '/index.html',
-       '/index.js',
-       '/styles.css',
+       './index.html',
+       './index.js',
+       './styles.css',
     // ]
  // var versionFiles = [
         // "/content/resources/css/mobile-chutes-ui.min.css?v=",
