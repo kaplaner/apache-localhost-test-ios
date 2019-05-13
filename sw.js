@@ -1,8 +1,7 @@
 var filesToCache = [
     // mainFiles: [
        '/',
-       '/index.html.en',
-       '/index.html.en~orig',
+       '/index.html',
        '/index.js',
        '/styles.css',
     // ]
