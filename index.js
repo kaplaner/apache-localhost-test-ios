@@ -7,27 +7,9 @@ window.onload = function() {
     // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/frog.mp4' },
     // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/monster.mp4' },
     // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/pig.mp4' },
-    // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/rabbit.mp4' }
-    // { 'name' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/crystal.webm' },
-    // { 'name' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/elf.webm' },
-    // { 'name' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/frog.webm' },
-    // { 'name' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/monster.webm' },
-    // { 'name' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/pig.webm' },
-    // { 'name' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/rabbit.webm' }
-    {'url' : 'https://develop.citia.com/content/organization/anthonys-sandbox/cards/video-card-4.4/media/15dca88b-38e9-48c3-abd0-e87404ba790e.mp4'}
-    // {'url' : 'https://develop.citia.com/content/organization/anthonys-sandbox/cards/video-card-3.2/media/ba93fdea-afdf-4714-bead-27cbfe634b83.mp4'},
-    // {'url' : 'https://develop.citia.com/content/organization/anthonys-sandbox/cards/video-card-2/media/226b86f2-46e2-46b9-adf5-7ecba6275b64.mp4'},
-    // {'url' : 'https://develop.citia.com/content/organization/anthonys-sandbox/cards/video-card-1/media/e0c9c54a-0842-49bd-8250-e7ac440d8fd3.mp4'},
+    // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/rabbit.mp4' },
+    { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/rabbit.mp4' }
 
-    // {'url' : 'https://citia.com/content/organization/anthonys-sandbox/cards/video-card-4/media/f8a70851-2c2f-4690-9df3-c4c3ef71f0e9.mp4'},
-    // {'url' : 'https://citia.com/content/organization/anthonys-sandbox/cards/video-card-test/media/9ca26d33-d924-4a59-af1c-70b1eb1b668e.mp4'},
-    // {'url' : 'https://citia.com/content/organization/anthonys-sandbox/cards/video-1/media/f30d64f1-9e98-4392-ad09-2d0548e32998.mp4'},
-    // {'url' : 'https://citia.com/content/organization/anthonys-sandbox/cards/a-new-video-trans-ca/media/093e3307-224d-4566-9d17-35aaf821ebf3.mp4'},
-    // {'url' : 'https://citia.com/content/organization/anthonys-sandbox/cards/video-card-3/media/c70cd345-9bbf-44c5-90d0-ce00d849976f.mp4'},
-    // {'url' : 'https://citia.com/content/organization/anthonys-sandbox/cards/video-card-4.2/media/630126c2-cc45-4342-a775-658f5476fd96.mp4'},
-    // {'url' : 'https://citia.com/content/organization/romans-org/cards/june-20th-video-card/media/200901db-76f8-4064-8bbc-54bf6251d00d.mp4'},
-    // {'url' : 'https://citia.com/content/organization/anthonys-sandbox/cards/another-video-test-c/media/0d221f7d-a2fa-4394-b97d-e1bf367d736d.mp4'},
-    // {'url' : 'https://citia.com/content/organization/anthonys-sandbox/cards/new-big-video/media/c43a163e-95f1-4b24-ad88-14dd5c11715b.mp4'}
   ];
   // Create an instance of a db object for us to store our database in
   let db;
