@@ -2,7 +2,7 @@ window.onload = function() {
   // Create constants
   const section = document.querySelector('section');
   const videos = [
-    { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_1mb.mp4' }
+    { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_1mb.mp4' },
     { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_20mb (1).mp4' }
 
   ];
