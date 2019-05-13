@@ -8,7 +8,7 @@ window.onload = function() {
     // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/monster.mp4' },
     // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/pig.mp4' },
     // { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/videos/rabbit.mp4' },
-    { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/SampleVideo_1280x720_20mb (1).mp4' }
+    { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/SampleVideo_1280x720_1mb.mp4' }
     { 'url' : 'https://mdn.github.io/learning-area/javascript/apis/client-side-storage/cache-sw/video-store-offline/SampleVideo_1280x720_20mb (1).mp4' }
 
   ];
