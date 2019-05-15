@@ -1,44 +1,9 @@
 var filesToCache = [
-    // mainFiles: [
        './',
        './index.html',
        './index.js',
        './styles.css',
-    // ]
- // var versionFiles = [
-        // "/content/resources/css/mobile-chutes-ui.min.css?v=",
-        // "/content/resources/js/mobile-chutes-ui.min.js?v=",
-        // "/content/resources/js/components/share-menu/share-menu-styles.css?v=",
-        "https://develop.citia.com/content/resources/js/components/share-menu/share-menu-styles.css?v=8.64.0-48cdf6e-1554886819290",
-    // ],
-    // orgCssVersionFiles: [
-        // "/content/template/singleCards.css?v=",
-        "https://develop.citia.com/content/template/singleCards.css?v=1552400873000",
-    // ],
-    // nonVersionFiles: [
-        // "/common/jquery/jquery-2.1.3.min.js",
-        "https://develop.citia.com/common/font-awesome/4.4.0/css/font-awesome.min.css"
-    ]
-// };
-
-// var filesToCache = {
-//     versionFiles: [
-//      "/content/resources/css/" + viewUITypeSlug + ".min.css?v=",
-//      "/content/resources/js/" + viewUITypeSlug + ".min.js?v=",
-//      "/content/resources/js/components/share-menu/share-menu-styles.css?v="
-//     ],
-//     orgCssVersionFiles: [
-//         "/content/template/singleCards.css?v="
-//     ],
-//     nonVersionFiles: [
-//         "/common/jquery/jquery-2.1.3.min.js",
-//         "/common/font-awesome/4.4.0/css/font-awesome.min.css"
-//     ]
-// };
-
-// var cachePrefix = viewShortName + '-cache-';
-// var viewStaticCache = cachePrefix + version + '-' + organizationCssVersion;
-// var viewStaticCache = cachePrefix + version + '-' + organizationCssVersion + '-' + viewVersion;
+]
 var viewStaticCache = "video-cardsite.2-cache-8.64.0-48cdf6e-1554886819290-1552400873000";
 
 var allCaches = [
@@ -53,25 +18,6 @@ self.addEventListener('install',function(event) {
             .then(function(cache) {
                 console.log('Adding files from json file');
                 console.log(filesToCache);
-
-                // var urlsToCache = [ ];
-
-                // // Versioned Files
-                // for (let i = 0; i < filesToCache.versionFiles.length; i++) {
-                //     urlsToCache.push(filesToCache.versionFiles[i] + version);
-                // }
-
-                // // Organization Versioned Files
-                // for (let i = 0; i < filesToCache.orgCssVersionFiles.length; i++) {
-                //     urlsToCache.push(filesToCache.orgCssVersionFiles[i] + organizationCssVersion);
-                // }
-
-                // // Non Versioned Files
-                // for (let i = 0; i < filesToCache.nonVersionFiles.length; i++) {
-                //     urlsToCache.push(filesToCache.nonVersionFiles[i]);
-                // }
-
-                // console.log(urlsToCache);
 
                 return cache.addAll(filesToCache);
             })
