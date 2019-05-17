@@ -5,7 +5,7 @@ window.onload = function() {
     { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/jennifer-lopez-the-r.20181213-200352/media/a4182c61-31eb-4da9-be7f-ce9cb971c45f.mp4' },
     { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/dbd-q4-marketing-eff.20181031-141858/media/6fdc9f62-f634-4d18-b415-d7e7f86a7203.mp4' },
     { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/bbc-3-promos-october.20181026-182906/media/246a084d-35a3-4ff2-b27d-f9fe899e5428.mp4' },
-    { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/jennifer-lopez-the-r.20181213-200352/media/a4182c61-31eb-4da9-be7f-ce9cb971c45f.mp4' },
+    { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/mtv-eoy-music/media/0e797039-075d-48f1-a53b-767f840c540f.mp4' },
     { 'url' : 'https://citia.com/content/organization/test-titles-sandbox/cards/video-test/media/dc81c995-cdcb-4c5f-86d8-226b18fb0173.mp4' },
     { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/15dca88b-38e9-48c3-abd0-e87404ba790e.mp4' },
     { 'url' : 'https://kaplaner.github.io/apache-localhost-test-ios/SampleVideo_1280x720_1mb.mp4' },
