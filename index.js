@@ -3,7 +3,7 @@ window.onload = function() {
   const section = document.querySelector('section');
   const videos = [
     { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/jennifer-lopez-the-r.20181213-200352/media/a4182c61-31eb-4da9-be7f-ce9cb971c45f.mp4' },
-    { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/jennifer-lopez-the-r.20181213-200352/media/a4182c61-31eb-4da9-be7f-ce9cb971c45f.mp4' },
+    { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/dbd-q4-marketing-eff.20181031-141858/media/6fdc9f62-f634-4d18-b415-d7e7f86a7203.mp4' },
     { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/jennifer-lopez-the-r.20181213-200352/media/a4182c61-31eb-4da9-be7f-ce9cb971c45f.mp4' },
     { 'url' : 'https://citia.com/content/organization/scratch-viacom/cards/jennifer-lopez-the-r.20181213-200352/media/a4182c61-31eb-4da9-be7f-ce9cb971c45f.mp4' },
     { 'url' : 'https://citia.com/content/organization/test-titles-sandbox/cards/video-test/media/dc81c995-cdcb-4c5f-86d8-226b18fb0173.mp4' },
