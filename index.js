@@ -139,14 +139,6 @@ window.onload = function() {
   // Open our database; it is created if it doesn't already exist
   // (see onupgradeneeded below)
   let request = window.indexedDB.open('videos', 1);
-  
-  // Show if we have something in indexedDB / for standalone mode 
-  var transaction = db.transaction(["videos"], "readonly");
-  var objectStore = transaction.objectStore("videos");
-
-  objectStore.getAllKeys().onsuccess = function(event) {
-    alert("Got all videos: " + event.target.result.join("\n"));
-  };
 
   // onerror handler signifies that the database didn't open successfully
   request.onerror = function() {
@@ -160,6 +152,14 @@ window.onload = function() {
 
     // Store the opened database object in the db variable. This is used a lot below
     db = request.result;
+    
+    // Show if we have something in indexedDB / for standalone mode 
+    var transaction = db.transaction(["videos"], "readonly");
+    var objectStore = transaction.objectStore("videos");
+
+    objectStore.getAllKeys().onsuccess = function(event) {
+      alert("Got all videos: " + event.target.result.join("\n"));
+    };
     init();
   };
 
