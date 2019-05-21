@@ -27,6 +27,7 @@ window.onload = function() {
         // If the result exists in the database (is not undefined)
         if(request.result) {
           // Grab the videos from IDB and display them using displayVideo()
+          alert('taking videos from IDB');
           console.log('taking videos from IDB');
           // displayVideo(request.result.mp4, request.result.webm, request.result.url);
           changeUrlWithBlob(request.result.mp4, request.result.webm, request.result.url);
@@ -40,6 +41,7 @@ window.onload = function() {
 
   // Define the fetchVideoFromNetwork() function
   function fetchVideoFromNetwork(video) {
+    alert('fetching videos from network');
     console.log('fetching videos from network');
     // Fetch the MP4 and WebM versions of the video using the fetch() function,
     // then expose their response bodies as blobs
@@ -76,10 +78,12 @@ window.onload = function() {
     let request = objectStore.add(record);
 
     request.onsuccess = function() {
+      alert('Record addition attempt finished');
       console.log('Record addition attempt finished');
     }
 
     request.onerror = function() {
+      alert(request.error);
       console.log(request.error);
     }
   };
@@ -143,6 +147,7 @@ window.onload = function() {
 
   // onsuccess handler signifies that the database opened successfully
   request.onsuccess = function() {
+    alert('Database opened succesfully');
     console.log('Database opened succesfully');
 
     // Store the opened database object in the db variable. This is used a lot below
@@ -163,7 +168,8 @@ window.onload = function() {
     // Define what data items the objectStore will contain
     objectStore.createIndex('mp4', 'mp4', { unique: false });
     objectStore.createIndex('webm', 'webm', { unique: false });
-
+    
+    alert('Database setup complete');
     console.log('Database setup complete');
   };
 
